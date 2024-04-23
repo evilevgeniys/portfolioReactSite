@@ -1,0 +1,30 @@
+.main {
+    &__title {
+        padding-top: 210px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-style: normal;
+		font-size: 25px;
+		color: $lightmode-text-color;
+        span {
+            color: $lightmode-hover-text-color;
+            text-shadow: -4px -4px 5px #7A7A7A;
+        }
+    }
+    &__subtitle {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 55px;
+		color: $lightmode-text-color;
+		padding-top: 80px;
+		&-eng {
+			font-family: "Inter", sans-serif;
+			font-weight: 400;
+			span {
+				color: $lightmode-hover-text-color;
+			}
+		}
+	}    
+}
+
+
