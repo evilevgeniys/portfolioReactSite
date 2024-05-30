@@ -5,7 +5,7 @@ import logo from "../../images/logo.svg";
 const Header = () => {
 	return (
 		<header className="header">
-            <Navbar expand="lg"  bg="dark" data-bs-theme="dark" className="header__nav">
+            <Navbar expand="lg" data-bs-theme="dark" className="header__nav">
                 <Container>
                        <Navbar.Brand href='#home' className="d-flex justify-content-start align-items-center"> 
                             <img
