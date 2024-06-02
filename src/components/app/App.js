@@ -7,7 +7,7 @@ const App = () => {
 		<div className="app">
 			<Header/>
 			<MainPage/>
-			<SocialLinks/>
+			<SocialLinks/> // added random comment
 		</div>
 	);
 };
