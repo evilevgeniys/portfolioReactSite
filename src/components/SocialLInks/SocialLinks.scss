@@ -1,6 +1,6 @@
 .socialLinks{
     position: fixed;
-    left: 2%;
+    float: left;
     bottom: 15%;
     text-decoration: none;
     &__item {
@@ -9,5 +9,19 @@
     }
     ul {
         list-style-type: none;
+        li {
+            padding-top: 60px;
+            a {
+                &:hover{
+                    
+                }
+            }
+        }
+    }
+    &:after{
+        content: '';
+        display: block;
+        width: 1px;
+        height: 60px;
     }
 }
