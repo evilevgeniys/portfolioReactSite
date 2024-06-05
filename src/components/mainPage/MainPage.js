@@ -1,6 +1,7 @@
 import "./MainPage.scss";
 import mainPhoto from '../../images/main_photo.PNG';
 import AboutMe from "../aboutMe/AboutMe";
+import Skills from "../Skills/Skills";
 
 const MainPage = () => {
     return(
@@ -15,8 +16,11 @@ const MainPage = () => {
                         <img src={mainPhoto} alt=""></img>
                     </div>
                 </div>
-                <div className="row">
-                    <AboutMe/>
+                <div className="aboutMeRow">
+                    <div className="row">
+                        <AboutMe/>
+                        <Skills/>       
+                    </div> 
                 </div>
             </div>
        </section>
