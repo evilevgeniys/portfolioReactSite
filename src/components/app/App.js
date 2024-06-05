@@ -10,7 +10,6 @@ const App = () => {
 			<Container>
 				<Header/>
 				<MainPage/>
-				<AboutMe/>
 			</Container>
 			<SocialLinks/> 
 		</div>
