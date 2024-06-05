@@ -1,8 +1,20 @@
+@import '../../style/variables.scss';
+
 .header {
     &__nav{
 
-        &-item{
-
+        &-logo{
+            &:hover {
+                color: $text-highlighted-green;
+                text-shadow: 0 0 5px rgba(152, 206, 0, 0.5), 0 0 10px rgba(152, 206, 0, 0.5),
+                0 0 15px rgba(152, 206, 0, 0.5);
+                svg {
+                    &:hover {
+                        fill: $text-highlighted-green;
+                        filter: drop-shadow($text-shadow);
+                    }
+                }
+            }
         }
         &-img {
             width: 40px;

@@ -7,7 +7,7 @@ const Header = () => {
 		<header className="header">
             <Navbar expand="lg" data-bs-theme="dark" className="header__nav">
                 <Container>
-                       <Navbar.Brand href='#home' className="d-flex justify-content-start align-items-center"> 
+                       <Navbar.Brand href='#home' className="d-flex justify-content-start align-items-center header__nav-logo"> 
                             <img
                                 alt="logo"
                                 src={logo}
