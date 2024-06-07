@@ -2,7 +2,7 @@ import './AboutMe.scss'
 
 function AboutMe() {
 	return(
-		<div className="aboutMe col-md-7">
+		<div className="aboutMe">
 			<h3 className="aboutMe__subtitle">const <span>AboutMeText</span> = </h3>
 			<div className='aboutMe__text'>
 				<p>Я тот самый начинающий разработчик, резюме которых обычно сразу закрывают. Но если вдруг я тебя заинтересовал, то рад знакомству!</p>
