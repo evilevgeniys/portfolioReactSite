@@ -18,8 +18,12 @@ const MainPage = () => {
                 </div>
                 <div className="aboutMeRow">
                     <div className="row">
-                        <AboutMe/>
-                        <Skills/>       
+                        <div className="aboutMe col-md-7">
+                            <AboutMe/>
+                        </div>
+                        <div className="stacks col-md-5">
+                            <Skills/>    
+                        </div>       
                     </div> 
                 </div>
             </div>

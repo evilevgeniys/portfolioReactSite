@@ -1,5 +1,25 @@
 @import '../../style/variables.scss';
 
 .skills{
+	width: 85%;
+  	padding: 2vh 1vw 2vh 1vw;
+    border-radius: 5px;
+  	display: flex;
+  	flex-direction: column;
 	color: $text-main-color;
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 2vw;
+		padding-top: 20px;
+	}
+	&__img {
+		max-width: 3vw;
+		transition: transform 0.3s ease;
+	
+		&:hover {
+		  transform: scale(1.2);
+		}
+	}
 }
