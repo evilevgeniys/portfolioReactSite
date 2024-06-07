@@ -6,7 +6,7 @@ function Skills() {
 			<div className='skills__title'>
 				<h3>const <span>myStack</span> = </h3>
 			</div>
-
+			
 		</section>
 	)
 }
