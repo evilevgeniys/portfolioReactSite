@@ -16,9 +16,10 @@ const Header = () => {
                         </Navbar.Brand>
                        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                        <Navbar.Collapse id="basic-navbar-nav"/>
-                       <Nav className="d-flex justify-content-end align-items-center">
-                            <Nav.Link href="#aboutMe">About Me</Nav.Link>
-                            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                       <Nav className="d-flex justify-content-end align-items-center header__nav-links">
+                            <Nav.Link href="#aboutMe" className="header__nav-item">Обо мне</Nav.Link>
+                            <Nav.Link href="#portfolio" className="header__nav-item">Мои работы</Nav.Link>
+                            <Nav.Link href="#portfolio" className="header__nav-item">Резюме</Nav.Link>
                        </Nav>
                 </Container>
             </Navbar>
