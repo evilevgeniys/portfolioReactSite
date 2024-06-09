@@ -2,7 +2,7 @@ import Header from "../header/Header";
 import MainPage from "../mainPage/MainPage";
 import Portfolio from "../portfolio/Portfolio";
 import SocialLinks from "../SocialLInks/SocialLinks";
-import Cv from "../cv/Cv";
+import Cv from "../Cv/Cv";
 import { Container } from "react-bootstrap";	
 import  { Route, Routes } from "react-router-dom";
 
