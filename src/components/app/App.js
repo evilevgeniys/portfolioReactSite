@@ -1,16 +1,23 @@
 import Header from "../header/Header";
 import MainPage from "../mainPage/MainPage";
+import Portfolio from "../portfolio/Portfolio";
 import SocialLinks from "../SocialLInks/SocialLinks";
+import Cv from "../cv/Cv";
 import { Container } from "react-bootstrap";	
+import  { Route, Routes } from "react-router-dom";
 
 const App = () => {
 	return (
 		<div className="app">
-			<Container>
-				<Header/>
-				<MainPage/>
-			</Container>
-			<SocialLinks/> 
+				<Container>
+					<Header/>
+					<Routes>
+						<Route path="/" element={<MainPage/>}/>
+						<Route path="/portfolio" element={<Portfolio/>}/>
+						<Route path="/cv" element={<Cv/>}/>
+					</Routes>
+				</Container>
+				<SocialLinks/> 
 		</div>
 	);
 };
