@@ -1,3 +1,5 @@
+@import '../../style/variables.scss';
+
 .socialLinks{
     position: fixed;
     float: left;
@@ -12,8 +14,10 @@
         li {
             padding-top: 60px;
             a {
-                &:hover{
-                    
+                svg {
+                    &:hover {
+                        scale: 1.3;
+                    }
                 }
             }
         }
