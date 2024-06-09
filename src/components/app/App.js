@@ -1,7 +1,7 @@
 import Header from "../header/Header";
 import MainPage from "../mainPage/MainPage";
 import SocialLinks from "../SocialLInks/SocialLinks";
-import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";	
 
 const App = () => {
 	return (

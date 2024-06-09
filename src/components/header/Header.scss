@@ -2,7 +2,6 @@
 
 .header {
     &__nav{
-
         &-logo{
             &:hover {
                 color: $text-highlighted-green;
@@ -35,4 +34,9 @@
             justify-content: center;
         }
     }
+}
+
+.active {
+    color: $text-highlighted-green;
+    text-decoration: underline;
 }
