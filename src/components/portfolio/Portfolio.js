@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardGroup, Container, Stack } from "react-bootstrap";
+import { Card, CardGroup, Container} from "react-bootstrap";
 
 import { PROJECTS } from "../../utils/Projects";
 
