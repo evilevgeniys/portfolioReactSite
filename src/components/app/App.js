@@ -5,6 +5,7 @@ import SocialLinks from "../SocialLInks/SocialLinks";
 import Cv from "../Cv/Cv";
 import { Container } from "react-bootstrap";	
 import  { Route, Routes } from "react-router-dom";
+import Footer from "../footer/Footer";
 
 const App = () => {
 	return (
@@ -16,6 +17,7 @@ const App = () => {
 						<Route path="/portfolio" element={<Portfolio/>}/>
 						<Route path="/cv" element={<Cv/>}/>
 					</Routes>
+					<Footer/>
 				</Container>
 				<SocialLinks/> 
 		</div>
