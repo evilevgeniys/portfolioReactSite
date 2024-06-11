@@ -1,4 +1,5 @@
 //import projects img
+import UberLanding from '../images/works/uber.jpg';
 
 
 //import stack img
@@ -8,16 +9,68 @@ import JS from '../images/skills/js.png';
 import SASS from '../images/skills/sass.png';
 import ReactJS from '../images/skills/react.png';
 import Bootstrap from '../images/skills/Bootstrap.png';
+import GitHub from '../images/skills/GitHub.png';
 
 export const PROJECTS = [
 	{
 		id: "0",
-		title: "TEST",
-		description: "This is test card in my portfolio",
+		title: "UBER landing page",
+		description: "Лэндинг для сервиса такси Uber",
 		websiteUrl: "",
-		githubUrl: "https://github.com/evilevgeniys",
-		gitHubIconUrl: "",
-		imageUrl: "",
+		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
+		gitHubIconUrl: GitHub,
+		imageUrl: UberLanding,
+		stack: [
+			{name: "HTML5", icon: HTML5},
+			{name: "CSS3", icon: CSS3},
+			{name: "JS", icon: JS},
+			{name: "SASS", icon: SASS},
+			{name: "ReactJS", icon: ReactJS},
+			{name: "Bootstrap", icon: Bootstrap},
+		]
+	},
+	{
+		id: "1",
+		title: "UBER landing page",
+		description: "Лэндинг для сервиса такси Uber",
+		websiteUrl: "",
+		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
+		gitHubIconUrl: GitHub,
+		imageUrl: UberLanding,
+		stack: [
+			{name: "HTML5", icon: HTML5},
+			{name: "CSS3", icon: CSS3},
+			{name: "JS", icon: JS},
+			{name: "SASS", icon: SASS},
+			{name: "ReactJS", icon: ReactJS},
+			{name: "Bootstrap", icon: Bootstrap},
+		]
+	},
+	{
+		id: "3",
+		title: "UBER landing page",
+		description: "Лэндинг для сервиса такси Uber",
+		websiteUrl: "",
+		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
+		gitHubIconUrl: GitHub,
+		imageUrl: UberLanding,
+		stack: [
+			{name: "HTML5", icon: HTML5},
+			{name: "CSS3", icon: CSS3},
+			{name: "JS", icon: JS},
+			{name: "SASS", icon: SASS},
+			{name: "ReactJS", icon: ReactJS},
+			{name: "Bootstrap", icon: Bootstrap},
+		]
+	},
+	{
+		id: "4",
+		title: "UBER landing page",
+		description: "Лэндинг для сервиса такси Uber",
+		websiteUrl: "",
+		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
+		gitHubIconUrl: GitHub,
+		imageUrl: UberLanding,
 		stack: [
 			{name: "HTML5", icon: HTML5},
 			{name: "CSS3", icon: CSS3},
