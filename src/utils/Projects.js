@@ -1,5 +1,8 @@
 //import projects img
-import UberLanding from '../images/works/uber.jpg';
+import UberLanding from '../images/works/uber.png';
+import PulseLanding from '../images/works/pulse.png';
+import FoodSite from '../images/works/food.png';
+import CrudSite from '../images/works/Crud.png';
 
 
 //import stack img
@@ -23,10 +26,56 @@ export const PROJECTS = [
 		stack: [
 			{name: "HTML5", icon: HTML5},
 			{name: "CSS3", icon: CSS3},
+			{name: "Bootstrap", icon: Bootstrap}
+		]
+	},
+	{
+		id: "1",
+		title: "Магазин фитнес-браслетов 'Pulse'",
+		description: "Одностраничный сайт магазина",
+		websiteUrl: "",
+		githubUrl: "https://github.com/evilevgeniys/pulse_landing_site",
+		gitHubIconUrl: GitHub,
+		imageUrl: PulseLanding,
+		stack: [
+			{name: "HTML5", icon: HTML5},
+			{name: "CSS3", icon: CSS3},
 			{name: "JS", icon: JS},
 			{name: "SASS", icon: SASS},
-			{name: "ReactJS", icon: ReactJS},
 			{name: "Bootstrap", icon: Bootstrap},
+		]
+	},
+	{
+		id: "2",
+		title: "Сайт здорового питания",
+		description: "Информационный портал по теме здорового питания",
+		websiteUrl: "",
+		githubUrl: "https://github.com/evilevgeniys/food_site",
+		gitHubIconUrl: GitHub,
+		imageUrl: FoodSite,
+		stack: [
+			{name: "HTML5", icon: HTML5},
+			{name: "CSS3", icon: CSS3},
+			{name: "JS", icon: JS},
+			{name: "SASS", icon: SASS},
+			{name: "Bootstrap", icon: Bootstrap},
+		]
+	},
+	{
+		id: "3",
+		title: "'CRUD' Web-application",
+		description: "Простое одностраничное Веб-приложение",
+		websiteUrl: "",
+		githubUrl: "https://github.com/evilevgeniys/employees_crud_project",
+		gitHubIconUrl: GitHub,
+		imageUrl: CrudSite,
+		stack: [
+			{name: "HTML5", icon: HTML5},
+			{name: "CSS3", icon: CSS3},
+			{name: "JS", icon: JS},
+			{name: "SASS", icon: SASS},
+			{name: "Bootstrap", icon: Bootstrap},
+			{name: "ReactJS", icon: ReactJS},
 		]
 	},
 ]
