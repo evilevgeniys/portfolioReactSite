@@ -7,7 +7,7 @@ const Header = () => {
 		<header className="header">
             <Navbar expand="lg" data-bs-theme="dark" className="header__nav">
                 <Container>
-                       <Navbar.Brand href='#home' className="d-flex justify-content-start align-items-center header__nav-logo"> 
+                       <Navbar.Brand href='/' className="d-flex justify-content-start align-items-center header__nav-logo"> 
                             <img
                                 alt="logo"
                                 src={logo}
@@ -17,9 +17,9 @@ const Header = () => {
                        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                        <Navbar.Collapse id="basic-navbar-nav"/>
                        <Nav className="d-flex justify-content-end align-items-center header__nav-links">
-                            <Nav.Link href="/" className="header__nav-item active">00. Обо мне</Nav.Link>
+                            <Nav.Link href="/" className="header__nav-item">00. Обо мне</Nav.Link>
                             <Nav.Link href="/portfolio" className="header__nav-item">01. Мои работы</Nav.Link>
-                            <Nav.Link href="/cv" className="header__nav-item">02. Резюме</Nav.Link>
+                            <Nav.Link href="https://drive.google.com/file/d/1cRDBovaNghoyrYWXkHwTwxTHaDysxC9N/view?usp=sharing" className="header__nav-item">02. Резюме</Nav.Link>
                        </Nav>
                 </Container>
             </Navbar>
