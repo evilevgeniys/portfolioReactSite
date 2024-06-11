@@ -17,7 +17,7 @@ export const PROJECTS = [
 		title: "UBER landing page",
 		description: "Лэндинг для сервиса такси Uber",
 		websiteUrl: "",
-		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
+		githubUrl: "https://github.com/evilevgeniys/landing_uber_site",
 		gitHubIconUrl: GitHub,
 		imageUrl: UberLanding,
 		stack: [
@@ -29,55 +29,4 @@ export const PROJECTS = [
 			{name: "Bootstrap", icon: Bootstrap},
 		]
 	},
-	{
-		id: "1",
-		title: "UBER landing page",
-		description: "Лэндинг для сервиса такси Uber",
-		websiteUrl: "",
-		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
-		gitHubIconUrl: GitHub,
-		imageUrl: UberLanding,
-		stack: [
-			{name: "HTML5", icon: HTML5},
-			{name: "CSS3", icon: CSS3},
-			{name: "JS", icon: JS},
-			{name: "SASS", icon: SASS},
-			{name: "ReactJS", icon: ReactJS},
-			{name: "Bootstrap", icon: Bootstrap},
-		]
-	},
-	{
-		id: "3",
-		title: "UBER landing page",
-		description: "Лэндинг для сервиса такси Uber",
-		websiteUrl: "",
-		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
-		gitHubIconUrl: GitHub,
-		imageUrl: UberLanding,
-		stack: [
-			{name: "HTML5", icon: HTML5},
-			{name: "CSS3", icon: CSS3},
-			{name: "JS", icon: JS},
-			{name: "SASS", icon: SASS},
-			{name: "ReactJS", icon: ReactJS},
-			{name: "Bootstrap", icon: Bootstrap},
-		]
-	},
-	{
-		id: "4",
-		title: "UBER landing page",
-		description: "Лэндинг для сервиса такси Uber",
-		websiteUrl: "",
-		githubUrl: "https://github.com/evilevgeniyshttps://github.com/evilevgeniys/landing_uber_site",
-		gitHubIconUrl: GitHub,
-		imageUrl: UberLanding,
-		stack: [
-			{name: "HTML5", icon: HTML5},
-			{name: "CSS3", icon: CSS3},
-			{name: "JS", icon: JS},
-			{name: "SASS", icon: SASS},
-			{name: "ReactJS", icon: ReactJS},
-			{name: "Bootstrap", icon: Bootstrap},
-		]
-	}
 ]
