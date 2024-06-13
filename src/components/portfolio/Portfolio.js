@@ -7,8 +7,9 @@ import './Portfolio.scss';
 
 function Portfolio() {
 	return(
-		<section className="projects">
+		<section className="projects">  
       <Container>
+        <h2>function <span>getMyProjects</span> {`{`} </h2>
         <CardGroup className="projects__container">
           {PROJECTS.map((project) => (
             <Card
@@ -59,6 +60,7 @@ function Portfolio() {
             </Card>
           ))}
         </CardGroup>
+          <h2>{`}`}</h2>
       </Container>
     </section>
 	)

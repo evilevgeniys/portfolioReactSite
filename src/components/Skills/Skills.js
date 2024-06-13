@@ -11,7 +11,7 @@ function Skills() {
 	return (
 	  <section className="skills">
 		<h3 className="skills__title">
-		  const <span className="highlighted-text-shadow">myStack</span> =
+		  function <span className="highlighted-text-shadow">showMyStack</span> {`{`}
 		</h3>
 		<div className="skills__wrapper">
 		  {Object.keys(skills).map((skill) => (
@@ -29,6 +29,8 @@ function Skills() {
 			</OverlayTrigger>
 		  ))}
 		</div>
+		<br></br>
+		<h3>{`}`}</h3>
 	  </section>
 	);
   }  
