@@ -1,6 +1,8 @@
 @import '../../style/variables.scss';
 
 .header {
+    display: flex;
+    align-items: center;
     &__nav{
         &-img {
             width: 40px;
@@ -8,7 +10,10 @@
             padding-right: 10px;
         }
         &-item {
+            font-family: "JetBrains Mono";
+            font-weight: 400;
             margin-right: 40px;
+            font-size: 18px;
             &:hover {
                 color: $text-highlighted-green;
                 text-shadow: 0 0 5px rgba(152, 206, 0, 0.5), 0 0 10px rgba(152, 206, 0, 0.5),
