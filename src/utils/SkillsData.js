@@ -42,8 +42,4 @@ export const skills = {
 	  name: "Git",
 	  image: gitImg,
 	},
-	uiux: {
-	  name: "UI/UX",
-	  image: UXimg,
-	},
   };
