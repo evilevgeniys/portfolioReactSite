@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3266a20d.css",
+    "main.js": "/static/js/main.8f461d65.js",
+    "static/media/pulse.png": "/static/media/pulse.f237c318dc6e19590470.png",
+    "static/media/food.png": "/static/media/food.a361868bfe1851fea9fb.png",
+    "static/media/uber.png": "/static/media/uber.d153231149c1f1f4dc34.png",
+    "static/media/main_photo.PNG": "/static/media/main_photo.bf2495caa6661e6c589e.PNG",
+    "static/media/Evgenij_ignatyuk_junior_frontend_cv.pdf": "/static/media/Evgenij_ignatyuk_junior_frontend_cv.b4b08663b80f974b879d.pdf",
+    "static/media/Crud.png": "/static/media/Crud.1e2baefaf649025ff556.png",
+    "static/media/logo.svg": "/static/media/logo.e28e9567a518bcd76aa39b6ee83ac8d9.svg",
+    "static/media/burger.svg": "/static/media/burger.977c9b51bae31629e5f4.svg",
+    "index.html": "/index.html",
+    "main.3266a20d.css.map": "/static/css/main.3266a20d.css.map",
+    "main.8f461d65.js.map": "/static/js/main.8f461d65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3266a20d.css",
+    "static/js/main.8f461d65.js"
+  ]
+}
