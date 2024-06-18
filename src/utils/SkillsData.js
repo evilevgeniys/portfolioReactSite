@@ -2,7 +2,6 @@ import bootstrapImg from "../images/skills/Bootstrap.png";
 import html5Img from "../images/skills/html5.png";
 import css3Img from "../images/skills/css3.png";
 import reactImg from "../images/skills/react.png";
-import UXimg from "../images/skills/UX.png";
 import gitImg from "../images/skills/git.png";
 import nodeImg from "../images/skills/nodeJS.png";
 import sassImg from "../images/skills/sass.png";

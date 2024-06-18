@@ -9,8 +9,8 @@ const MainPage = () => {
             <div className="container">
                 <div className="row">
                     <div className="mainPage__title col-md-7">
-                        <h1 className="mainPage__title-upper">Hello, world!<br></br>Я, Евгений</h1>
-                        <h2 className="mainPaage__title-low">Начинающий  <br/> <span className="mainPage_text-span">{'< frontend разработчик />'} </span></h2>
+                        <h1 className="mainPage__title-upper">Привет, я Евгений!</h1>
+                        <h2 className="mainPage__title-low"><span className="mainPage_text-span">{'< frontend разработчик />'} </span></h2>
                     </div>
                     <div className="mainPage__photo fade-in col-md-5">
                         <img src={mainPhoto} alt=""></img>

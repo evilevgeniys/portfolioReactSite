@@ -11,7 +11,7 @@ function Skills() {
 	return (
 	  <section className="skills">
 		<h3 className="skills__title">
-		  function <span className="highlighted-text-shadow">showMyStack</span> {`{`}
+		  function <span className="highlighted-text-shadow">showMyStack</span>{`( ){`}
 		</h3>
 		<div className="skills__wrapper">
 		  {Object.keys(skills).map((skill) => (

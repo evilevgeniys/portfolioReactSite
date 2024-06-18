@@ -9,7 +9,7 @@ function Portfolio() {
 	return(
 		<section className="projects">  
       <Container>
-        <h2>function <span>getMyProjects</span> {`{`} </h2>
+        <h2>const <span>myProjects</span> {` = {`} </h2>
         <CardGroup className="projects__container">
           {PROJECTS.map((project) => (
             <Card
