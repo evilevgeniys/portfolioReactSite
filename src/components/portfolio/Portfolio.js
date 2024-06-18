@@ -1,20 +1,19 @@
 import React from "react";
-import { Card, CardGroup, Container} from "react-bootstrap";
+import { Card, CardGroup, Container } from "react-bootstrap";
+
+import "./Portfolio.scss";
 
 import { PROJECTS } from "../../utils/Projects";
 
-import './Portfolio.scss';
-
-function Portfolio() {
-	return(
-		<section className="projects">  
+function Projects() {
+  return (
+    <section className="projects">
       <Container>
-        <h2>const <span>myProjects</span> {` = {`} </h2>
         <CardGroup className="projects__container">
           {PROJECTS.map((project) => (
             <Card
               key={project.id}
-              className={`projects__card`}
+              className={`projects__card ${project.class}`}
             >
               <Card.Img
                 variant="top"
@@ -30,7 +29,7 @@ function Portfolio() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={project.gitHubIconUrl}
+                    src={project.githubIconUrl}
                     alt="GitHub"
                     className="projects__card-tech-img github-img"
                   />
@@ -47,7 +46,7 @@ function Portfolio() {
                   {project.description}
                 </Card.Text>
                 <div className="projects__card-tech">
-                  {project.stack.map((techIcon) => (
+                  {project.techIcons.map((techIcon) => (
                     <img
                       key={techIcon.name}
                       src={techIcon.icon}
@@ -60,11 +59,9 @@ function Portfolio() {
             </Card>
           ))}
         </CardGroup>
-          <h2>{`}`}</h2>
       </Container>
     </section>
-	)
+  );
 }
 
-export default Portfolio;
-
+export default Projects;

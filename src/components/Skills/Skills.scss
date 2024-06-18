@@ -1,51 +1,55 @@
-@import '../../style/variables.scss';
+@import "../../style/_shared.scss";
 
-.skills{
-	width: 85%;
-  	padding: 2vh 1vw 2vh 1vw;
-    border-radius: 5px;
-  	display: flex;
-  	flex-direction: column;
-	color: $text-main-color;
-	@media (max-width: 1024px) {
-		width: 100%;
-	  }
-	
-	  @media (max-width: 768px) {
-		padding: 0;
-	  }
-	&__wrapper {
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
-		gap: 2vw;
-		padding-top: 20px;
-		padding-left: 30px;
-		@media (max-width: 768px) {
-			justify-content: center;
-			gap: 4vw;
-		  }
-	}
-	&__img {
-		max-width: 3vw;
-		transition: transform 0.3s ease;
-		@media (max-width: 1024px) {
-			min-width: 4vw;
-		  }
-	  
-		  @media (max-width: 768px) {
-			min-width: 7vw;
-		  }
-	  
-		  @media (max-width: 576px) {
-			min-width: 8vw;
-		  }
-	  
-		  @media (max-width: 425px) {
-			min-width: 10vw;
-		  }
-		&:hover {
-		  transform: scale(1.2);
-		}
-	}
+.skills {
+  @include form-base_add-width(85%);
+  padding: 2vh 1vw 3vh 1vw;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+
+  &__title {
+    @include formtitle(2.5vh);
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+      gap: 4vw;
+    }
+  }
+
+  &__img {
+    max-width: 3vw;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    @media (max-width: 1024px) {
+      min-width: 4vw;
+    }
+
+    @media (max-width: 768px) {
+      min-width: 7vw;
+    }
+
+    @media (max-width: 576px) {
+      min-width: 8vw;
+    }
+
+    @media (max-width: 425px) {
+      min-width: 10vw;
+    }
+  }
 }

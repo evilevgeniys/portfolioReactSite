@@ -1,11 +1,14 @@
-import './Footer.scss';
+import React, { useContext } from "react";
+import AppContexts from "../../Сontexts/AppContexts";
+
+import "./Footer.scss";
 
 function Footer() {
-	return(
-		<footer>
-			<p className='footer'>Евгений Игнатюк &copy; 2024</p>
-		</footer>
-	)
+  const { loading } = useContext(AppContexts);
+
+  if (loading) return null;
+
+  return <p className="footer">Евгений Игнатюк &copy; 2024</p>;
 }
 
 export default Footer;

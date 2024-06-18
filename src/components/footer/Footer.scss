@@ -1,10 +1,8 @@
-@import "../../style/variables.scss";
+@import "../../style/_shared.scss";
 
 .footer {
   margin-top: 10vh;
-  margin-bottom: 0;
-  padding-bottom: 10px;
-  color: gray;
+  color: $color--global-gray;
   font-family: "JetBrains Mono";
   font-weight: 100;
   font-size: 1rem;

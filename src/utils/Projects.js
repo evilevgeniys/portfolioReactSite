@@ -23,7 +23,7 @@ export const PROJECTS = [
 		githubUrl: "https://github.com/evilevgeniys/landing_uber_site",
 		gitHubIconUrl: GitHub,
 		imageUrl: UberLanding,
-		stack: [
+		techIcons: [
 			{name: "HTML5", icon: HTML5},
 			{name: "CSS3", icon: CSS3},
 			{name: "Bootstrap", icon: Bootstrap}
@@ -37,7 +37,7 @@ export const PROJECTS = [
 		githubUrl: "https://github.com/evilevgeniys/pulse_landing_site",
 		gitHubIconUrl: GitHub,
 		imageUrl: PulseLanding,
-		stack: [
+		techIcons: [
 			{name: "HTML5", icon: HTML5},
 			{name: "CSS3", icon: CSS3},
 			{name: "JS", icon: JS},
@@ -53,7 +53,7 @@ export const PROJECTS = [
 		githubUrl: "https://github.com/evilevgeniys/food_site",
 		gitHubIconUrl: GitHub,
 		imageUrl: FoodSite,
-		stack: [
+		techIcons: [
 			{name: "HTML5", icon: HTML5},
 			{name: "CSS3", icon: CSS3},
 			{name: "JS", icon: JS},
@@ -69,7 +69,7 @@ export const PROJECTS = [
 		githubUrl: "https://github.com/evilevgeniys/employees_crud_project",
 		gitHubIconUrl: GitHub,
 		imageUrl: CrudSite,
-		stack: [
+		techIcons: [
 			{name: "HTML5", icon: HTML5},
 			{name: "CSS3", icon: CSS3},
 			{name: "JS", icon: JS},
