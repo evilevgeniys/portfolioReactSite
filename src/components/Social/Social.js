@@ -2,7 +2,7 @@ import './Social.scss';
 
 function Social() {
 	return (
-    <div orientation="left" className="social d-none d-sm-block">
+    <div orientation="left" className="social d-sm-none">
       <ul className="social__wrapper">
         <li className="social__item">
           <a

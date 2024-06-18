@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardGroup, Container } from "react-bootstrap";
 
-import "./Portfolio.scss";
+import "./Projects.scss";
 
 import { PROJECTS } from "../../utils/Projects";
 
@@ -9,6 +9,7 @@ function Projects() {
   return (
     <section className="projects">
       <Container>
+        <h2 className="projects__function">const <span>myProjects</span> {` = {`}</h2>
         <CardGroup className="projects__container">
           {PROJECTS.map((project) => (
             <Card
@@ -29,7 +30,7 @@ function Projects() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={project.githubIconUrl}
+                    src={project.gitHubIconUrl}
                     alt="GitHub"
                     className="projects__card-tech-img github-img"
                   />
@@ -59,6 +60,7 @@ function Projects() {
             </Card>
           ))}
         </CardGroup>
+        <h2 className="projects__lower-text">{`}`}</h2>
       </Container>
     </section>
   );

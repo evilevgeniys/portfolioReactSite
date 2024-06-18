@@ -1,6 +1,6 @@
 import Header from "../header/Header";
 import MainPage from "../mainPage/MainPage";
-import Portfolio from "../portfolio/Portfolio";
+import Projects from "../projects/Projects";
 import SocialLinks from "../SocialLInks/SocialLinks"; 
 import Footer from "../footer/Footer";
 import React from "react";
@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio" element={<Projects />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Social />

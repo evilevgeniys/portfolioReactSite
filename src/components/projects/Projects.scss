@@ -23,12 +23,16 @@
 
 .projects {
   margin-top: 8vh;
+  padding-top: 100px;
   flex: 1;
+
+  h2 {
+    color: $color--global-text
+  }
 
   @media (max-width: 768px) {
     margin-top: 0;
   }
-
   &__container {
     padding: 0px 10vw 0px 10vw;
     display: grid;
@@ -54,7 +58,7 @@
 
     @media (max-width: 425px) {
       gap: 3vh;
-      margin-top: 25vh;
+      margin-top: 5vh;
     }
   }
 
@@ -181,6 +185,9 @@
         transform: scale(1.1);
       }
     }
+  }
+  &__lower-text {
+    margin-left: 50px;
   }
 }
 
