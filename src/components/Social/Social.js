@@ -16,7 +16,7 @@ function Social() {
         </li>
         <li className="social__item">
           <a
-            href="t.me/evilevgeniys"
+            href="https://t.me/evilevgeniys"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="vkontakte"
@@ -36,7 +36,7 @@ function Social() {
         </li>
         <li className="social__item">
           <a
-            href="github.com/evilevgeniys"
+            href="https://github.com/evilevgeniys"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
